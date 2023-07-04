@@ -3,11 +3,11 @@
   <title>Szxhz | by hexo</title>
   
   <subtitle>szxhz</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://szxhz.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://szxhz.github.io/"/>
   <updated>2023-07-04T08:22:20.451Z</updated>
-  <id>http://example.com/</id>
+  <id>https://szxhz.github.io/</id>
   
   <author>
     <name>Tiger</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>深圳小黑子</title>
-    <link href="http://example.com/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/"/>
-    <id>http://example.com/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/</id>
+    <link href="https://szxhz.github.io/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/"/>
+    <id>https://szxhz.github.io/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/</id>
     <published>2023-07-04T06:11:17.000Z</published>
     <updated>2023-07-04T08:22:20.451Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>第一篇文章</title>
-    <link href="http://example.com/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://szxhz.github.io/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://szxhz.github.io/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2023-07-04T05:54:29.000Z</published>
     <updated>2023-07-04T08:26:30.929Z</updated>
     
