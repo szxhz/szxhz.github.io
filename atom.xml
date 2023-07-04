@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Szxhz | by hexo</title>
+  
+  <subtitle>szxhz</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-07-04T08:22:20.451Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Tiger</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>深圳小黑子</title>
+    <link href="http://example.com/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/"/>
+    <id>http://example.com/2023/07/04/%E6%B7%B1%E5%9C%B3%E5%B0%8F%E9%BB%91%E5%AD%90/</id>
+    <published>2023-07-04T06:11:17.000Z</published>
+    <updated>2023-07-04T08:22:20.451Z</updated>
+    
+    <content type="html"><![CDATA[<p>我的另一个blog，使用WP轻松搭建的深圳小黑子。<br>6月，临近期末，闲来无事，搭建了一个blog。<br>我给其取名深圳小黑子…不对，叫做<em><strong>TIGER PAGE</strong></em>。</p><blockquote><p>  链接地址：<em><a href="http://szxhz.ikunh.top/">http://szxhz.ikunh.top/</a></em></p><ul><li>使用了免费的香港高速虚拟主机，直接白嫖。</li></ul></blockquote><p>步骤如下：</p><ul><li><p>有一个虚拟主机亦或者服务器</p></li><li><p>没有人会傻到自己写HTML：</p><pre><code class="hljs">&lt;html lang="en"&gt;    &lt;head&gt;            &lt;meta charset="UTF-8"&gt;            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;            &lt;meta name="viewport" content="width-device-width, initial-scale=1.0"&gt;            &lt;title&gt;Tiger Page | BY Github Page&lt;/title&gt;            &lt;link rel="icon" href="/img/Page.png" type="image/x-icon"&gt;            &lt;link rel="stylesheet" href="/Tiger.css"&gt;            &lt;/head&gt;    &lt;body&gt;            &lt;a href="/index.html" class="button"&gt;Home&lt;/a&gt;            &lt;a href="/about.html" class="button"&gt;About&lt;/a&gt;            &lt;div style="text-align: center"&gt;                &lt;h1&gt;&lt;strong&gt;&lt;font color="white"&gt; Tiger Page&lt;/font&gt;&lt;/strong&gt;&lt;/h1&gt;                &lt;br&gt;                &lt;br&gt;                &lt;h2&gt;&lt;strong&gt;&lt;font color="white"&gt; 六月的风滚烫，时光信马由缰，千花万柳是盛夏的诗行，&lt;br&gt;接纳不完美的自己，即使披荆斩棘&lt;/font&gt;&lt;/strong&gt;&lt;h2&gt;                &lt;br&gt;                &lt;br&gt;                &lt;br&gt;&lt;br&gt;                &lt;a href="/2023/6.16.01.n1.html" class="button button1"&gt;                    &lt;h3&gt;&lt;font color="brown"&gt;2023,6,16,n1&lt;/font&gt;&lt;/h3&gt;                    &lt;p&gt;&lt;strong&gt;&lt;font color="black"&gt;Hello World&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;                    &lt;h5&gt;&lt;font color="black"&gt;This is my first blog! Hello everybody! ...&lt;/font&gt;&lt;/h5&gt;                    &lt;img src="/img/6.16.01.png"&gt;                &lt;/a&gt;             &lt;/div&gt;    &lt;/body&gt;&lt;/html&gt;</code></pre></li></ul><p>当然，除了我…<br>就这样第一版出现了。但谁写blog要纯手编的？于是，我使用了<strong>Wordpress</strong>。<br>最后就有了效果：<br><img src="http://szxhz.ikunh.top/wp-content/uploads/2023/07/IMG_3924.jpeg" alt="这是首页" title="HOME PAGE"><br>前往博客 <a href="http://szxhz.ikunh.top/" title="TIGER'S PAGE">前往</a>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我的另一个blog，使用WP轻松搭建的深圳小黑子。&lt;br&gt;6月，临近期末，闲来无事，搭建了一个blog。&lt;br&gt;我给其取名深圳小黑子…不对，叫做&lt;em&gt;&lt;strong&gt;TIGER PAGE&lt;/strong&gt;&lt;/em&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;  链接地址：</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://example.com/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2023/07/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2023-07-04T05:54:29.000Z</published>
+    <updated>2023-07-04T08:26:30.929Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><p>Markdown is <strong>simple</strong>, the HTML is also more <strong>difficult</strong>.<br>This is a md <em>text docment</em>.</p><pre><code class="hljs">&lt;strong&gt;&lt;em&gt;这是粗字体和斜字体&lt;/em&gt;&lt;/strong&gt;***这是粗字体和斜字体***</code></pre><p>效果：<em><strong>这是粗字体和斜字体</strong></em>    </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一篇文章&quot;&gt;&lt;a href=&quot;#第一篇文章&quot; class=&quot;headerlink&quot; title=&quot;第一篇文章&quot;&gt;&lt;/a&gt;第一篇文章&lt;/h2&gt;&lt;p&gt;Markdown is &lt;strong&gt;simple&lt;/strong&gt;, the HTML is also more</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
