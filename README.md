@@ -77,11 +77,11 @@
 >
 >  - 然后更改 ***/_config.yml*** , 
    ![更改](https://img-blog.csdnimg.cn/f5cc3400d5b64a6ca75ce6cedd34ec41.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "更改")
-    找到theme，更改为如下：
+    找到 **theme** ，更改为如下：
 
     theme: next
 >
-找到language，更改为如下：
+找到 **language** ，更改为如下：
 
     language: zh-CN  
 
