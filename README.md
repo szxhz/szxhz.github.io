@@ -227,7 +227,7 @@
 
 >
 >    - 接着会提示你按格式输入邮箱和用户名，用GitHub验证登录。验证完成后再次输入构建命令。
-    ![4](https://szxhz.github.io/szxhz.github.io-source/img/20230705007.png "4")
+    ![4](https://github.com/szxhz/szxhz.github.io-source/blob/main/img/20230705007.png "4")
 >
 >  - 方式2：
 >
