@@ -3,7 +3,7 @@
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
 转载于：***https://blog.csdn.net/yaorongke/article/details/119089190***
 步骤如下：
-> 1,准备工作：
+> **1,准备工作** ：
 >
 >  - 安装 *nodejs* 和 *git*
 >
@@ -16,7 +16,7 @@
     
 >    - 一切的一切就是你必须要有一个GitHub账号！***https://github.com/login***
 >
->  2,创建仓库：
+>  **2,创建仓库** ：
 >
 >   - 新建仓库：其他默认，但仓库名得是 **用户名.github.io**
     ![新仓库](https://img-blog.csdnimg.cn/5b7236589dc8430d8b96c512e0989b23.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "新仓库")
@@ -37,7 +37,7 @@
 
     恭喜你，你已经拥有了一个GitHub page。
 >
->  3,安装hexo：
+>  **3,安装hexo** ：
 >
 >  - 你可以根据hexo官网来进行安装：https://hexo.io
 >
@@ -66,7 +66,7 @@
 >
 >   - 但到最后一定要**Ctrl+c**关闭。
 >
->  4，更换主题:
+>  **4，更换主题** :
 >
 >  - 这个界面虽说不上丑，但真的不好看，不如换个主题吧！可以去官网选一个：***https://hexo.io/themes*** 这里我使用的是fluid。
 >
@@ -105,7 +105,7 @@
     这里写关于页的正文，支持 Markdown, HTML
 
 >
->  5，自定义主题：
+>  **5，自定义主题** ：
 >
 >  - 首先在 ***/_config.yml*** 中修改：（建议自定义的我用了中文，能改的在文段最上面)
 
@@ -189,5 +189,53 @@
     $ hexo s
 
 >
-> - 可以看见成果：
+>  - 可以看见成果：
     ![2](https://szxhz.github.io/szxhz.github.io-source/img/20230705005.png "2")
+>
+>  **6，创建文章** ：
+
+    $ hexo new "文章名"
+
+>
+>  - 常见的文章在 ***/source/_posts/你的文章名.md*** ，没错，你的文章也要用MD语法。
+>
+>  **7,上传GitHub page** :
+>
+>  - 方式1：
+>    - 获取 *hexo-deployer-git*
+
+    $ npm install hexo-deployer-git --save
+
+>
+>    - 获取克隆链接：
+    ![3](https://szxhz.github.io/szxhz.github.io-source/img/20230705006.png "3")
+>
+>    - 获取tokens： ***https://github.com/settings/tokens***
+>
+>    - 打开 ***/_config.yml*** 最后一行进行编辑：
+
+    deploy:
+        type: git
+        repo: 克隆链接
+        branch: main
+        token: 你的token
+
+>
+>    - 然后构建：
+
+    hexo g -d
+
+>
+>    - 接着会提示你按格式输入邮箱和用户名，用GitHub验证登录。验证完成后再次输入构建命令。
+    ![4](https://szxhz.github.io/szxhz.github.io-source/img/20230705007.png "4")
+>
+>  - 方式2：
+>
+>    - 这个方法简单粗暴，直接将 ***/public*** 里面的所有文件上传即可。
+    ![5](https://img-blog.csdnimg.cn/efdfd2d6cf5d4551af0eabfa565f4a1e.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "5")
+>
+>    - 这个方法简单，但以后一但更新，就得重新上传。
+>
+>  - 我个人认为 **方式1** 更方便，且可以长期使用。
+
+那么，这个博客就搭建完成了，放心食用。如果像上传服务器，可以参考之前提到的原文。
