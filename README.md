@@ -81,4 +81,8 @@
 
     theme: next
 
->
+    找到language，更改为如下：
+
+    language: zh-CN  
+    
+> - 
