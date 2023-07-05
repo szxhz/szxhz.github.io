@@ -1,9 +1,3 @@
----
-title: hexo+GitHub page搭建个人博客全过程
-date: 2023-07-05 16:21:34
-tags:
----
-
 # https://szxhz.github.io/
 
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
@@ -68,7 +62,7 @@ tags:
         $ hexo s
 >
 >   - 这个时候你就可以让电脑本地启动博客，使用浏览器打开：***http://localhost:4000/***
-      ![本地启动](https://https://szxhz.github.io/szxhz.github.io-source/img/20230705009.png "本地启动")
+      ![本地启动](https://szxhz.github.io/szxhz.github.io-source/img/20230705009.png "本地启动")
 >
 >   - 但到最后一定要**Ctrl+c**关闭。
 >
@@ -82,7 +76,7 @@ tags:
 >  - 下载完成后解压到 ***/themes*** ，将文件重命名为 ***fluid***
 >
 >  - 然后更改 ***/_config.yml*** , 
-   ![更改](https://https://szxhz.github.io/szxhz.github.io-source/img/20230705010.png "更改")
+   ![更改](https://szxhz.github.io/szxhz.github.io-source/img/20230705010.png "更改")
     找到 **theme** ，更改为如下：
 
     theme: next
