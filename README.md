@@ -45,20 +45,23 @@
 >
 >    - 分别输入以下命令:
 
-        npm install -g hexo-cli
+        $ npm install -g hexo-cli
 
-        hexo -v
+        $ hexo -v
 
-        hexo init hexo-blog
+        $ hexo init hexo-blog
 
-        cd hexo-blog
+        $ cd hexo-blog
 
-        npm install
+        $ npm install
 >
 >   - 如果都没有报错就输入如下命令：
     
-        hexo g
+        $ hexo g
         
-        hexo s
-
-    
+        $ hexo s
+>
+>   - 这个时候你就可以让电脑本地启动博客，使用浏览器打开：***http://localhost:4000/***
+      ![本地启动](https://img-blog.csdnimg.cn/656bf025f6934a35abc104b16e4dd2fc.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "本地启动")
+>
+>   - 但到最后一定要**Ctrl+c**关闭。
