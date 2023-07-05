@@ -66,7 +66,7 @@
 >
 >   - 但到最后一定要**Ctrl+c**关闭。
 >
->  4、更换主题:
+>  4，更换主题:
 >
 >  - 这个界面虽说不上丑，但真的不好看，不如换个主题吧！可以去官网选一个：***https://hexo.io/themes*** 这里我使用的是fluid。
 >
@@ -91,6 +91,7 @@
 
      $ hexo new page about
 
+>
 >    - 新建的页面就在 ***/source/about/index.md*** hexo的页面是用MarkDown语法的，具体操作手册可以看官方手册： ***https://markdown.com.cn/basic-syntax/*** 。
 
     ---
@@ -104,3 +105,89 @@
     这里写关于页的正文，支持 Markdown, HTML
 
 >
+>  5，自定义主题：
+>
+>  - 首先在 ***/_config.yml*** 中修改：（建议自定义的我用了中文，能改的在文段最上面)
+
+    # Hexo Configuration
+    ## Docs: https://hexo.io/docs/configuration.html
+    ## Source: https://github.com/hexojs/hexo/
+
+    # Site
+    title: 你想要的title
+    subtitle: '另一个title'
+    description: '另一个title'
+    keywords:
+    author: 文章作者名
+    language: zh-CN  
+    timezone: ''
+
+    # URL
+    ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+    url: 你的网站链接
+    permalink: :year/:month/:day/:title/
+    permalink_defaults:
+    pretty_urls:
+        trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+        trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+
+>  - 接着在 ***/themes/fluid/_config,yml*** 中修改：
+>
+>  - 我们可以更改浏览器标签的图标。
+
+    # 用于浏览器标签的图标
+    # Icon for browser tab
+    favicon: /img/图标名
+
+    # 用于苹果设备的图标
+    # Icon for Apple touch
+    apple_touch_icon: /img/图标名
+
+>
+>  - 上面 ***/img*** 实际上就在 ***/themes/fluid/source/img*** 里面。
+>
+>  - 其实背景图片也能改：在 ***/themes/fluid/source/img*** 里面有一个 ***default.png*** 文件，将他删掉，把你想要的背景放到这个文件夹中，改名为 ***default.png*** 。
+>
+>  - 我们可以更改导航栏左侧标题：
+
+    navbar:
+        # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
+        # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
+        blog_title: "自定义标题"
+
+>  - 主页标题也可以更改：
+
+    index:
+        # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
+        # Path of Banner image, can be a relative path or an absolute path, the same on other pages
+        banner_img: /img/default.png
+
+        # 头图高度，屏幕百分比
+        # Height ratio of banner image
+        # Available: 0 - 100
+        banner_img_height: 100
+
+        # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
+        # Opacity of the banner mask, 1.0 is completely opaque
+        # Available: 0 - 1.0
+        banner_mask_alpha: 0.3
+
+        # 首页副标题的独立设置
+        # Independent config of home page subtitle
+        slogan:
+            enable: true
+
+            # 为空则按 hexo config.subtitle 显示
+            # If empty, text based on `subtitle` in hexo config
+            text: "自定义标题"
+
+>    
+>  - 现在我们构建再启动：
+
+    $ hexo g -d
+    $ hexo s
+
+>
+> - 可以看见成果：
+    ![2](https://szxhz.github.io/szxhz.github.io-source/img/20230705005.png "2")
