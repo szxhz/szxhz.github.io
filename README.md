@@ -65,3 +65,10 @@
       ![本地启动](https://img-blog.csdnimg.cn/656bf025f6934a35abc104b16e4dd2fc.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "本地启动")
 >
 >   - 但到最后一定要**Ctrl+c**关闭。
+>
+>  4、更换主题:
+>
+>  - 这个界面虽说不上丑，但真的不好看，不如换个主题吧！可以去官网选一个：***https://hexo.io/themes*** 这里我使用的是fluid。
+>
+>  - 打开这个链接：***https://github.com/fluid-dev/hexo-theme-fluid/releases*** 下载最新版的 ***Source code (zip)***
+     ![d-f](https://szxhz.github.io/szxhz.github.io-source/img/20230705004.png "d-f")
