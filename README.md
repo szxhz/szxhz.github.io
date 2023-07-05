@@ -85,4 +85,22 @@
 
     language: zh-CN  
 
-> - 
+>  - 创建「关于页」:
+>
+>    - 因为这个主题没有关于页，需要手动创建：
+
+     $ hexo new page about
+
+>    - 新建的页面就在 ***/source/about/index.md*** hexo的页面是用MarkDown语法的，具体操作手册可以看官方手册： ***https://markdown.com.cn/basic-syntax/*** 。
+
+    ---
+
+    title: about
+    date: 2020-02-23 19:20:33
+    layout: about
+
+    ---
+
+    这里写关于页的正文，支持 Markdown, HTML
+
+>
