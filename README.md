@@ -1,3 +1,9 @@
+---
+title: hexo+GitHub page搭建个人博客全过程
+date: 2023-07-05 16:21:34
+tags:
+---
+
 # https://szxhz.github.io/
 
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
@@ -227,12 +233,12 @@
 
 >
 >    - 接着会提示你按格式输入邮箱和用户名，用GitHub验证登录。验证完成后再次输入构建命令。
-    ![4](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705007.png "4")
+    ![4](https://szxhz.github.io/szxhz.github.io-source/img/20230705007.png "4")
 >
 >  - 方式2：
 >
 >    - 这个方法简单粗暴，直接将 ***/public*** 里面的所有文件上传即可。
-    ![5](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705011.png "5")
+    ![5](https://szxhz.github.io/szxhz.github.io-source/img/20230705011.png "5")
 >
 >    - 这个方法简单，但以后一但更新，就得重新上传。
 >
