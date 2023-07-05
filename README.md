@@ -3,7 +3,7 @@
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
 转载于：***https://blog.csdn.net/yaorongke/article/details/119089190***
 步骤如下：
-> 准备工作：
+> 1,准备工作：
 >
 >  - 安装 *nodejs* 和 *git*
 >
@@ -16,7 +16,7 @@
     
 >    - 一切的一切就是你必须要有一个GitHub账号！***https://github.com/login***
 >
->  创建仓库：
+>  2,创建仓库：
 >
 >   - 新建仓库：其他默认，但仓库名得是 **用户名.github.io**
     ![新仓库](https://img-blog.csdnimg.cn/5b7236589dc8430d8b96c512e0989b23.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "新仓库")
@@ -37,4 +37,28 @@
 
     恭喜你，你已经拥有了一个GitHub page。
 >
+>  3,安装hexo：
 >
+>  - 你可以根据hexo官网来进行安装：https://hexo.io
+>
+>  - 你在电脑上新建一个存放博客的文件夹，在该文件夹打开git bash here。
+>
+>    - 分别输入以下命令:
+
+        npm install -g hexo-cli
+
+        hexo -v
+
+        hexo init hexo-blog
+
+        cd hexo-blog
+
+        npm install
+>
+>   - 如果都没有报错就输入如下命令：
+    
+        hexo g
+        
+        hexo s
+
+    
