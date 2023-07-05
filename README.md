@@ -1,4 +1,10 @@
-# https://szxhz.github.io
+---
+title: hexo+GitHub page搭建个人博客全过程
+date: 2023-07-05 16:21:34
+tags:
+---
+
+# https://szxhz.github.io/
 
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
 转载于：***https://blog.csdn.net/yaorongke/article/details/119089190***
@@ -19,7 +25,7 @@
 >  **2,创建仓库** ：
 >
 >   - 新建仓库：其他默认，但仓库名得是 **用户名.github.io**
-    ![新仓库](https://img-blog.csdnimg.cn/5b7236589dc8430d8b96c512e0989b23.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "新仓库")
+    ![新仓库](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705008.png "新仓库")
 >
 >   - 新建一个文件，文件名为index.html:
 
@@ -62,7 +68,7 @@
         $ hexo s
 >
 >   - 这个时候你就可以让电脑本地启动博客，使用浏览器打开：***http://localhost:4000/***
-      ![本地启动](https://img-blog.csdnimg.cn/656bf025f6934a35abc104b16e4dd2fc.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "本地启动")
+      ![本地启动](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705009.png "本地启动")
 >
 >   - 但到最后一定要**Ctrl+c**关闭。
 >
@@ -76,7 +82,7 @@
 >  - 下载完成后解压到 ***/themes*** ，将文件重命名为 ***fluid***
 >
 >  - 然后更改 ***/_config.yml*** , 
-   ![更改](https://img-blog.csdnimg.cn/f5cc3400d5b64a6ca75ce6cedd34ec41.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "更改")
+   ![更改](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705010.png "更改")
     找到 **theme** ，更改为如下：
 
     theme: next
@@ -227,12 +233,12 @@
 
 >
 >    - 接着会提示你按格式输入邮箱和用户名，用GitHub验证登录。验证完成后再次输入构建命令。
-    ![4](https://github.com/szxhz/szxhz.github.io-source/blob/main/img/20230705007.png "4")
+    ![4](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705007.png "4")
 >
 >  - 方式2：
 >
 >    - 这个方法简单粗暴，直接将 ***/public*** 里面的所有文件上传即可。
-    ![5](https://img-blog.csdnimg.cn/efdfd2d6cf5d4551af0eabfa565f4a1e.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhb3JvbmdrZQ==,size_16,color_FFFFFF,t_70 "5")
+    ![5](https://raw.githubusercontent.com/szxhz/szxhz.github.io-source/main/img/20230705011.png "5")
 >
 >    - 这个方法简单，但以后一但更新，就得重新上传。
 >
