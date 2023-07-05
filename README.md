@@ -24,5 +24,17 @@
 >   - 新建一个文件，文件名为index.html:
 
     <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>test</title>
+        </head>
+        <body>
+            <h1>test的个人主页</h1>
+            <h1>Hello ~</h1>
+        </body>
+    </html>
 
-> -
+    恭喜你，你已经拥有了一个GitHub page。
+>
+>
