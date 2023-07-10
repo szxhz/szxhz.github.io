@@ -1,9 +1,3 @@
----
-title: hexo+GitHub page搭建个人博客全过程
-date: 2023-07-05 16:21:34
-tags:
----
-
 # https://szxhz.github.io/
 
 **我使用了GitHub pages 和 hexo fluid 主题来进行网站布局和优化**
@@ -41,7 +35,7 @@ tags:
         </body>
     </html>
 
-    恭喜你，你已经拥有了一个GitHub page。
+恭喜你，你已经拥有了一个GitHub page。
 >
 >  **3,安装hexo** ：
 >
@@ -85,7 +79,7 @@ tags:
    ![更改](https://szxhz.github.io/szxhz.github.io-source/img/20230705010.png "更改")
     找到 **theme** ，更改为如下：
 
-    theme: next
+    theme: fluid
 >
 找到 **language** ，更改为如下：
 
